@@ -32,7 +32,7 @@ void loop() {
         binary[count]=remain;
         count++;
       }
-      for(int i=5;i>=0;i++)
+      for(int i=5;i>=0;i--)
       {
         if(binary[i]==1)
           digitalWrite(i+8,HIGH);
